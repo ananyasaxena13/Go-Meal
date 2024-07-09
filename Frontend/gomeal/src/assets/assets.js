@@ -50,6 +50,7 @@ import twitter_icon from './twitter_icon.png'
 import linkedin_icon from './linkedin_icon.png'
 import app_store from './app_store.png'
 import play_store from './play_store.png' 
+import cross_icon from './cross_icon.png'
 
 export const assets = {
     logo,
@@ -64,6 +65,8 @@ export const assets = {
     linkedin_icon,
     app_store,
     play_store,
+    cross_icon,
+    
 }
 
 export const menu_list = [

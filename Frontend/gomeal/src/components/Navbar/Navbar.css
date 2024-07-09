@@ -3,14 +3,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 
 .navbar .logo{
     width: 22%;
-
+    height: 100%;
 }
 
 .navbar-menu{
+    width: 75%;
     display: flex;
     list-style: none;
     gap: 20px;
@@ -19,12 +21,14 @@
 }
 
 .navbar-right {
+    width: 25%;
     display: flex;
     align-items: center;
     gap: 40px;
 }
 
 .navbar button{
+    width: 120px;
     background: transparent;
     font-size: 16px;
     color: #616361;
