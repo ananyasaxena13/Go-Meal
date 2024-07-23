@@ -7,7 +7,6 @@
 
 .navbar .logo{
     width: 150px;
-    height: 100%;
 }
 .navbar-menu{
     display: flex;
@@ -56,10 +55,52 @@
     border-radius: 5px;
     top: -8px;
     right: -8px;
+}
+
+.navbar-profile{
+    position: relative;
+
+}
+.navbar-profile .profile_icon{
+    width: 37px;
+    height: 39px;
+}
+
+.nav-profile-dropdown{
+    position: absolute;
+    display: none;
+    right: 0;
+    z-index: 1;
 
 }
 
-.navbar-search-icon  .basket{
+.navbar-profile:hover .nav-profile-dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff2ef;
+    padding: 12px 25px;
+    border-radius: 4px;
+    border: 1px solid tomato;
+    outline: 2px solid white;
+    list-style: none;
+
+
+}
+.nav-profile-dropdown li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.navbar-profile img{
+    width: 20px;
+}
+.nav-profile-dropdown li:hover{
+    color: tomato;
+}
+
+.navbar-search-icon .basket{
     width: 40px;
     height: 40px;
 }

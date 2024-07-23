@@ -41,6 +41,7 @@ import food_29 from './food_29.png'
 import food_30 from './food_30.png'
 import food_31 from './food_31.png'
 import food_32 from './food_32.png'
+
 import rating_starts from './rating_starts.png'
 import add_icon_white from './add_icon_white.png'
 import remove_icon_red from './remove_icon_red.png'
@@ -51,6 +52,10 @@ import linkedin_icon from './linkedin_icon.png'
 import app_store from './app_store.png'
 import play_store from './play_store.png' 
 import cross_icon from './cross_icon.png'
+import profile_icon from './profile_icon.png'
+import bag_icon from './bag_icon.png'
+import logout_icon from './logout_icon.png'
+import parcel_icon from './parcel_icon.png'
 
 export const assets = {
     logo,
@@ -66,7 +71,10 @@ export const assets = {
     app_store,
     play_store,
     cross_icon,
-    
+    profile_icon,
+    bag_icon,
+    logout_icon,
+    parcel_icon
 }
 
 export const menu_list = [
